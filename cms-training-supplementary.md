@@ -1,3 +1,10 @@
+
+# Creating a group (slide 48)
+## If you did not, or were for some reason unable, to create a group through the portal
+```
+ slate group create cms-training-<your initials> --field "High Energy Physics"
+```
+
 # Getting Command Line Access (slide 60)
 ## (Optional - this is preinstalled on the training system)
 Download the SLATE client for Linux:
@@ -16,12 +23,6 @@ tar xzvf slate-linux.tar.gz
 Set your search path to find the client:
 ```
 export PATH="$PATH:$(pwd)"
-```
-
-# Creating a group (slide 48)
-## If you did not, or were for some reason unable, to create a group through the portal
-```
- slate group create cms-training-<your initials> --field "High Energy Physics"
 ```
 
 # Registering a cluster (slide 68)
